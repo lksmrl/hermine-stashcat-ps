@@ -39,8 +39,8 @@ function getUsersByChannel ($channelID) {
         'password' = "$password"
         'device_id' = "stashcatiskindofbrokenrandomstr1"
         'app_name' = "hermine@thw-Firefox:82.0-browser-4.11.1"
-        'encrypted' = True
-        'callable' = True
+        'encrypted' = "True"
+        'callable' = "True"
         'client_key' = "$(($t.Content | ConvertFrom-Json).payload.client_key)"
         "company" = "35428"
         "channel_id" = "$channelID"
